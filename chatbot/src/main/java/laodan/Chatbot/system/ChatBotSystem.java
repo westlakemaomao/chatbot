@@ -7,10 +7,10 @@ package laodan.Chatbot.system;
 
 import java.util.List;
 
-import laodan.Chatbot.domain.CandidateAnswer;
-import laodan.Chatbot.domain.Question;
-import laodan.Chatbot.source.BaiduDataSource;
-import laodan.Chatbot.source.DataSource;
+import laodan.Chatbot.search.domain.CandidateAnswer;
+import laodan.Chatbot.search.domain.Question;
+import laodan.Chatbot.search.source.BaiduDataSource;
+import laodan.Chatbot.search.source.DataSource;
 
 public class ChatBotSystem {
 

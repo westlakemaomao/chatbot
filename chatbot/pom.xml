@@ -88,7 +88,22 @@
 			<artifactId>stanford-parser</artifactId>
 			<version>3.6.0</version>
 		</dependency>
-
+		<!-- java shell jar包:java bean shell 用字符串来描述java代码,然后可以运行这些字符串-->
+		<dependency>
+			<groupId>bsh</groupId>
+			<artifactId>bsh</artifactId>
+			<version>0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/bsh.jar</systemPath>
+		</dependency>
+		<!-- 分词包 -->
+      <dependency>
+			<groupId>IKAnalyzer2012_u6</groupId>
+			<artifactId>IKAnalyzer2012_u6</artifactId>
+			<version>0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/IKAnalyzer2012_u6.jar</systemPath>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
